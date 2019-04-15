@@ -25,6 +25,7 @@
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^5.0.3",
     "gulp-load-plugins": "^1.2.4",
+    "gulp-nunjucks-render": "^2.2.3",
     "gulp-plumber": "^1.0.1",
     "gulp-postcss": "^8.0.0",
     "gulp-rev": "^9.0.0",
