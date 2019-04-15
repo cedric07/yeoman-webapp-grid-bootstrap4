@@ -23,6 +23,7 @@ function styles() {
   return src('app/styles/*.scss')
     .pipe($.plumber())
     .pipe($.if(!isProd, $.sourcemaps.init()))
+    .pipe($.sassGlob())
     .pipe($.sass.sync({
       outputStyle: 'expanded',
       precision: 10,
